@@ -11,7 +11,10 @@
 #' @param  end is the ending data
 #' @return A dataframe class with 5 variables
 #' @author Dhafer Malouche
-#' @example dt=covid19data(country = "TUN",start = "2020-04-01",end = "2020-06-25")
+#' @examples
+#' \dontrun{
+#' dt=covid19data(country = "TUN",start = "2020-04-01",end = "2020-06-25")
+#' }
 #' @import  dplyr
 #' @export
 

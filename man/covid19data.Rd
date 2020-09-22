@@ -21,6 +21,11 @@ This function extract the COVID-19 from the JHU github account.
 The dowloaded data contains 5 variables : data, iso3c code, confirmed, deaths and recovered
 You can choose the set of coutries and the range of dates
 }
+\examples{
+\dontrun{
+dt=covid19data(country = "TUN",start = "2020-04-01",end = "2020-06-25")
+}
+}
 \author{
 Dhafer Malouche
 }
