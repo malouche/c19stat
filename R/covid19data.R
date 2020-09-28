@@ -20,7 +20,7 @@
 
 
 covid19data<-function(country="all",start="2020-01-01",end="2020-09-22"){
-
+  require(dplyr)
   xs=as.Date(start)
   xe=as.Date(end)
   if(xe<xs) stop("Start date should be previous to End date")
