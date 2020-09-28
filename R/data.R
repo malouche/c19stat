@@ -15,3 +15,28 @@
 #'   \item{income}{}
 #' }
 "data_WB"
+
+
+#' Europ Countries
+#'
+#'
+#' @format A data frame about european countries:
+#' \describe{
+#'   \item{State}{}
+#'   \item{Capital}{}
+#'   \item{Population}{country code}
+#'   \item{Area}{}
+#'   \item{Density}{}
+#'   \item{MEPs}{}
+#' }
+"europ_countries"
+
+
+#' Shapfile World map
+#'
+#'
+#' @format A SpatialPolygonsDataFrame object for a world map
+#' \describe{
+#' }
+"countries"
+
