@@ -24,7 +24,8 @@
 #' \describe{
 #'   \item{State}{}
 #'   \item{Capital}{}
-#'   \item{Population}{country code}
+#'   \item{Population}{}
+#'   \item{country code}
 #'   \item{Area}{}
 #'   \item{Density}{}
 #'   \item{MEPs}{}
