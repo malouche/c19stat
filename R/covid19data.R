@@ -1,13 +1,13 @@
 
 #' Extract COVID-19 data
 #'
-#' This function extract the COVID-19 from the JHU github account.
+#' This function extracts the COVID-19 from the JHU github account.
 #' The dowloaded data contains 5 variables : data, iso3c code, confirmed, deaths and recovered
 #' You can choose the set of coutries and the range of dates
 #'
 #'
-#' @param  country  is the iso3c of the countries, byu default it's "all". This variable is a vector
-#' @param  start is the starting date. By defaut it's equal to "2020-01-02"
+#' @param  country  is the iso3c of the countries, by default it's "all". This variable is a vector
+#' @param  start is the starting date. By default it's equal to "2020-01-02"
 #' @param  end is the ending data
 #' @return A dataframe class with 5 variables
 #' @author Dhafer Malouche
@@ -17,6 +17,7 @@
 #' }
 #' @import  dplyr
 #' @export
+#'
 
 
 covid19data<-function(country="all",start="2020-01-01",end="2020-09-22"){

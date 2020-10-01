@@ -7,9 +7,9 @@
 covid19data(country = "all", start = "2020-01-01", end = "2020-09-22")
 }
 \arguments{
-\item{country}{is the iso3c of the countries, byu default it's "all". This variable is a vector}
+\item{country}{is the iso3c of the countries, by default it's "all". This variable is a vector}
 
-\item{start}{is the starting date. By defaut it's equal to "2020-01-02"}
+\item{start}{is the starting date. By default it's equal to "2020-01-02"}
 
 \item{end}{is the ending data}
 }
@@ -17,7 +17,7 @@ covid19data(country = "all", start = "2020-01-01", end = "2020-09-22")
 A dataframe class with 5 variables
 }
 \description{
-This function extract the COVID-19 from the JHU github account.
+This function extracts the COVID-19 from the JHU github account.
 The dowloaded data contains 5 variables : data, iso3c code, confirmed, deaths and recovered
 You can choose the set of coutries and the range of dates
 }
